@@ -23,6 +23,20 @@ Directly aligned with roles in:
 - DSP for sensor and time-series data
 
 ---
+## Dataset
+
+We use Google’s open-source **Speech Commands Dataset v0.02**:
+  
+🔗 [Download Link](https://storage.googleapis.com/download.tensorflow.org/data/speech_commands_v0.02.tar.gz)
+
+- After downloading, extract locally.
+- Update your `DATASET_PATH` variable in `train_model.py` and `data_exploration.py` to point to your local extracted dataset path.
+
+
+ Dataset License:  
+https://www.tensorflow.org/datasets/catalog/speech_commands
+
+---
 
 ## Pipeline Overview
 
@@ -67,7 +81,7 @@ Directly aligned with roles in:
 ##  Installation
 
 ```bash
-git clone <repo-url>
+git clone <https://github.com/Lazykitty244/speech-dsp-ml-demo.git>
 cd speech-dsp-ml-demo
 pip install -r requirements.txt
 
